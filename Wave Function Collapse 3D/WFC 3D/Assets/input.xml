@@ -1,0 +1,12 @@
+<set>
+  <tiles>
+<tile name="TestCube" symmetry="X" weight="1.0"/>
+<tile name="Testprefab" symmetry="X" weight="1.0"/>
+<tile name="Testprefab2" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="TestCube 0" right="TestCube 0"/>
+  <neighbor left="TestCube 1" right="Testprefab 1"/>
+  <neighbor left="Testprefab 1" right="Testprefab2 3"/>
+  <neighbor left="Testprefab2 3" right="TestCube 1"/>
+	</neighbors>
+</set>
